@@ -1,5 +1,6 @@
 .blog {
-    margin: 42px auto;
+    padding: 42px 0;
+    background-color: #fff;
 
     article.preview {
         width: 247px;
@@ -61,5 +62,48 @@
 
 .projects {
     background-color: #1f242a;
-    height: 300px;
+
+    .image img {
+        height: 518px;
+        width: 518px;
+    }
+
+    .text {
+        h2 {
+            padding: 0 50px;
+            line-height: 33px;
+            vertical-align: middle;
+            text-transform: uppercase;
+            vertical-align: middle;
+            font: {
+                family: Lato, sans-serif;
+                size: 30px;
+                weight: 500;
+            }
+
+            img {
+                margin-right: 20px;
+                margin-top: -6px;
+            }
+        }
+    }
+
+    .step-1,
+    .step-2,
+    .step-3 {
+        overflow: auto;
+        margin: 70px 0;
+    }
+
+    .step-1 h2 {
+        color: #24e174;
+    }
+
+    .step-2 h2 {
+        color: #f8a521;
+    }
+
+    .step-3 h2 {
+        color: #ec3930;
+    }
 }

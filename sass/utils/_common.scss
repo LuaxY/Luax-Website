@@ -3,6 +3,10 @@
     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", "Segoe UI", Helvetica, Arial, "Lucida Grande", sans-serif;
 }
 
+body {
+    background-color: #e9eaed;
+}
+
 body, div {
     margin: 0 auto;
     padding: 0;
@@ -44,7 +48,16 @@ body, div {
     vertical-align: middle;
 }
 
+.debug {
+    border: 1px solid red;
+}
+
 a {
     text-decoration: none;
     color: #627aad;
+}
+
+img {
+    border: 0;
+    vertical-align: middle;
 }

@@ -1,6 +1,11 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700);
 * {
   box-sizing: border-box;
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", "Segoe UI", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+
+body {
+  background-color: #e9eaed;
 }
 
 body, div {
@@ -39,9 +44,18 @@ body, div {
   vertical-align: middle;
 }
 
+.debug {
+  border: 1px solid red;
+}
+
 a {
   text-decoration: none;
   color: #627aad;
+}
+
+img {
+  border: 0;
+  vertical-align: middle;
 }
 
 .col-1 {
@@ -94,8 +108,6 @@ a {
 
 [class*="col-"] {
   float: left;
-  padding: 15px;
-  border: 1px solid red;
 }
 
 header {
@@ -218,7 +230,8 @@ header .title h1 {
 }
 
 .blog {
-  margin: 42px auto;
+  padding: 42px 0;
+  background-color: #fff;
 }
 .blog article.preview {
   width: 247px;
@@ -274,7 +287,39 @@ header .title h1 {
 
 .projects {
   background-color: #1f242a;
-  height: 300px;
+}
+.projects .image img {
+  height: 518px;
+  width: 518px;
+}
+.projects .text h2 {
+  padding: 0 50px;
+  line-height: 33px;
+  vertical-align: middle;
+  text-transform: uppercase;
+  vertical-align: middle;
+  font-family: Lato, sans-serif;
+  font-size: 30px;
+  font-weight: 500;
+}
+.projects .text h2 img {
+  margin-right: 20px;
+  margin-top: -6px;
+}
+.projects .step-1,
+.projects .step-2,
+.projects .step-3 {
+  overflow: auto;
+  margin: 70px 0;
+}
+.projects .step-1 h2 {
+  color: #24e174;
+}
+.projects .step-2 h2 {
+  color: #f8a521;
+}
+.projects .step-3 h2 {
+  color: #ec3930;
 }
 
 footer {
