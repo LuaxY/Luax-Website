@@ -30,12 +30,16 @@ footer {
         padding: 20px 0;
         overflow: auto;
 
-        .octicon-heart {
+        .fa-heart {
             color: #ec3930;
         }
 
-        .octicon-logo-github {
+        .fa-github-alt {
             color: #000;
+        }
+
+        .fa-code {
+            font-weight: bold;
         }
     }
 }

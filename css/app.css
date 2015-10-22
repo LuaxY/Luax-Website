@@ -348,9 +348,12 @@ footer .about {
   padding: 20px 0;
   overflow: auto;
 }
-footer .about .octicon-heart {
+footer .about .fa-heart {
   color: #ec3930;
 }
-footer .about .octicon-logo-github {
+footer .about .fa-github-alt {
   color: #000;
+}
+footer .about .fa-code {
+  font-weight: bold;
 }
